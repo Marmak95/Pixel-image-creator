@@ -15,6 +15,8 @@ Welcome to the Pixel Art Creator, a web-based tool that allows you to unleash yo
 ## How to visit the website
 Install Python and run this command inside the Pixel-image-creator folder to access the website:
 
-'python -m http.server 5000'
+```
+python -m http.server 5000
+```
 
 Then, visit the website at: http://127.0.0.1:5000/
