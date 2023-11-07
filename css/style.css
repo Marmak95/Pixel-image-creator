@@ -1,0 +1,7 @@
+#pixelCanvas {
+    border: 1px solid #000;
+}
+
+#clearButton, #exportButton {
+    margin: 10px;
+}
