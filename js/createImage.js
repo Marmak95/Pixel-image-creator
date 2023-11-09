@@ -4,19 +4,22 @@ const clearButton = document.getElementById("clearButton");
 const exportButton = document.getElementById("exportButton");
 
 // Set canvas size
-canvas.width = 400;
-canvas.height = 400;
+canvas.width = 500;
+canvas.height = 500;
 
-// Initialize drawing settings
-context.lineWidth = 10;
-context.lineCap = "round";
+// Initialize drawing settings for pixel art
+context.lineWidth = 1;
+context.lineCap = "square";
 context.strokeStyle = "black";
 
 let drawing = false;
 
+const pixelSize = 50; // Adjust this value to control the pixel size when drawing
+
 // Event listeners for drawing
 canvas.addEventListener("mousedown", () => {
     drawing = true;
+    context.beginPath();
 });
 
 canvas.addEventListener("mouseup", () => {
@@ -26,7 +29,12 @@ canvas.addEventListener("mouseup", () => {
 
 canvas.addEventListener("mousemove", (e) => {
     if (!drawing) return;
-    context.lineTo(e.clientX - canvas.offsetLeft, e.clientY - canvas.offsetTop);
+
+    // Round coordinates to the nearest pixel grid
+    const x = Math.floor((e.clientX - canvas.offsetLeft) / pixelSize) * pixelSize;
+    const y = Math.floor((e.clientY - canvas.offsetTop) / pixelSize) * pixelSize;
+
+    context.lineTo(x, y);
     context.stroke();
 });
 

@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Pixel Art Creator</title>
+    <title>Pixelated Image Creator</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <canvas id="pixelCanvas"></canvas>
-    <button id="clearButton">Clear</button>
-    <button id="exportButton">Export</button>
+    <header>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <img src="images/Pixelated_Image_Creator.png" alt="Pixelated Image Creator" id="title-image">
+    </header>
+    <main>
+        <div class="flex-container">
+            <div>
+                <p>
+                    Draw your pixelated image in the canvas.
+                </p>
+                <canvas id="pixelCanvas"></canvas>
+                <button id="clearButton">Clear</button>
+                <button id="exportButton">Export</button>
+            </div>
+        </div>
+    </main>
     <script src="js/createImage.js"></script>
 </body>
 </html>
