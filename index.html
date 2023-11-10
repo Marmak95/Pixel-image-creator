@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Pixelated Image Creator</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -18,6 +19,12 @@
                 <canvas id="pixelCanvas"></canvas>
                 <button id="clearButton">Clear</button>
                 <button id="exportButton">Export</button>
+                <div class="controls">
+                    <label for="gridSizeSlider">Grid Size:</label>
+                    <input type="range" id="gridSizeSlider" value="50" min="1" max="100">
+                    <output for="gridSizeSlider" id="gridSizeOutput">50</output>
+                </div>
+                <input type="color" id="colorPicker" value="#000000">
             </div>
         </div>
     </main>

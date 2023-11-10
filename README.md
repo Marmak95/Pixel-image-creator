@@ -12,8 +12,8 @@ Welcome to the Pixel Art Creator, a web-based tool that allows you to unleash yo
 
 - **Clear Canvas**: Start fresh at any time by clearing the canvas with a single click.
 
-## How to visit the website
-Install Python and run this command inside the Pixel-image-creator folder to access the website:
+## How to visit the website (Windows)
+Example: Install Python and run this command inside the Pixel-image-creator folder to access the website:
 
 ```
 python -m http.server 5000
