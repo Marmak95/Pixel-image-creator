@@ -10,7 +10,7 @@ Welcome to the Pixel Art Creator, a web-based tool that allows you to unleash yo
 
 - **Custom Colors**: Choose from a variety of colors to give life to your creations.
 
-- **Resize Pixel Size**: Change the size of the pixels when drawing to match your needs.
+- **Resize Grid Size**: Change the size of the squares when drawing to match your needs.
 
 - **Export as PNG**: Save your artwork as a PNG image file to share or use in other projects.
 
