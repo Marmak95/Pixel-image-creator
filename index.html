@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pixelated Image Creator</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -12,19 +13,16 @@
     </header>
     <main>
         <div class="flex-container">
-            <div>
-                <p>
-                    Draw your pixelated image in the canvas.
-                </p>
-                <canvas id="pixelCanvas"></canvas>
-                <button id="clearButton">Clear</button>
-                <button id="exportButton">Export</button>
+            <canvas id="pixelCanvas"></canvas>
+            <div class="options">
                 <div class="controls">
                     <label for="gridSizeSlider">Grid Size:</label>
                     <input type="range" id="gridSizeSlider" value="50" min="1" max="100">
                     <output for="gridSizeSlider" id="gridSizeOutput">50</output>
                 </div>
                 <input type="color" id="colorPicker" value="#000000">
+                <button id="clearButton">Clear</button>
+                <button id="exportButton">Export</button>
             </div>
         </div>
     </main>
