@@ -2,6 +2,8 @@
 
 Welcome to the Pixel Art Creator, a web-based tool that allows you to unleash your creativity and design pixelated artwork effortlessly.
 
+Try it: https://marmak95.github.io/Pixel-image-creator/
+
 ![example](https://github.com/Marmak95/Pixel-image-creator/assets/79858654/5ba3a57e-05d3-4a72-ae1f-15ccf1635f21)
 
 ## Features
@@ -15,12 +17,3 @@ Welcome to the Pixel Art Creator, a web-based tool that allows you to unleash yo
 - **Export as PNG**: Save your artwork as a PNG image file to share or use in other projects.
 
 - **Clear Canvas**: Start fresh at any time by clearing the canvas with a single click.
-
-## How to visit the website (Windows)
-Example: Install Python and run this command inside the Pixel-image-creator folder to access the website:
-
-```
-python -m http.server 5000
-```
-
-Then, visit the website at: http://127.0.0.1:5000/
