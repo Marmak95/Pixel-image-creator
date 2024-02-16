@@ -4,6 +4,10 @@ Welcome to the Pixel Art Creator, a web-based tool that allows you to unleash yo
 
 Try it: https://marmak95.github.io/Pixel-image-creator/
 
+#### Note: 
+It may not work properly on a smartphone yet.
+
+
 ![example](https://github.com/Marmak95/Pixel-image-creator/assets/79858654/5ba3a57e-05d3-4a72-ae1f-15ccf1635f21)
 
 ## Features
